@@ -1,3 +1,6 @@
+# In the dataset missing values are coded as ? but none of the values in the required subsets have ?
+# so this information is ignored in all the plots
+
 # use dplyr for selection and filtering
 library(dplyr)
 
