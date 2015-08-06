@@ -14,3 +14,4 @@ The other great alternative is to use the sqldf package. This provide the full f
 myData <- read.csv.sql(file="household_power_consumption.txt",sep=";",sql="select Date,Time from file where Date='2/2/2007'", eol = "\n")
 ```
 Now that we have the full flexibility of SQL we can change the select statement to meet our any need.
+
